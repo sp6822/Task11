@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    private void updateBackground() {
+    public void updateBackground() {
         int selected = RG.getCheckedRadioButtonId();
 
         if (selected == R.id.rb1) {
